@@ -36,12 +36,16 @@ align-items: center;
     width: 100%;
     border-left-style: none;
 }
+.exampleImg{
+
+}
 .cleanFlatButtonfirst{
     width: 100%;
 }
 .containerCleanButton{
-    margin: 0%;
-    padding:0%;
+    border: solid black 1px;
+    margin: 0px;
+    padding: 0px;
 }
 .aboutCleanFlat{
     display:flex;
@@ -426,7 +430,11 @@ header .overlay {
             width: 211px;
         }
     }
- 
+    @media only screen and (max-width: 768px) {
+       .exampleImg{
+           display: none;
+       }
+    }
     @media screen and (max-width: 994px){
         .cleanWindowButton{
             width: 150px;
